@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- Favicon Logo -->
+<link rel="icon" type="image/png" href="Images/logo.jpg" />
+
+<!-- Page Description -->
+<meta name="description" content="Plan your perfect trip with Tripadvisor – Over a billion trips planned and counting! Discover places, book experiences, and more.">
+
+  <title>Tripadvisor Clone</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="./style.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-..."
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+</head>
+<body>
+  <div class="navbar">
+    <!-- Left: Logo -->
+    <div class="navbar__logo">
+      <img src="Images/logo_2.jpg" alt="Tripadvisor Logo" />
+    </div>
+
+    <!-- Center: Menu Items -->
+    <div class="navbar__menu">
+      <p>Discover</p>
+      <p>Trips</p>
+      <p>Review</p>
+      <p class="navbar__forums">Forums</p>
+    </div>
+
+    <!-- Right: Language + Sign in -->
+    <div class="navbar__right">
+      <div class="navbar__lang">
+        <i class="fa-solid fa-globe"></i>
+        <span class="light-pipe">|</span>
+        <span>INR</span>
+      </div>
+      <div class="navbar__signin">
+        <a href="#">Sign in</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Where to Section -->
+<section class="search-section">
+    <h1 class="search-title">Where to?</h1>
+  
+    <!-- Filter Options -->
+    <ul class="search-filters">
+      <li class="active"><i class="fa-solid fa-house"></i> Search All</li>
+      <li><i class="fa-solid fa-hotel"></i> Hotels</li>
+      <li><i class="fa-solid fa-camera"></i> Things to Do</li>
+      <li><i class="fa-solid fa-utensils"></i> Restaurants</li>
+      <li><i class="fa-solid fa-plane"></i> Flights</li>
+      <li><i class="fa-solid fa-building"></i> Holiday Homes</li>
+    </ul>
+  
+    <!-- Search Bar -->
+    <div class="search-box">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" placeholder="Places to go, things to do, hotels..." />
+      <button>Search</button>
+    </div>
+  </section>
+  
+  <!-- Animated Banner -->
+  <div class="banner">
+    <div class="banner-wrapper">
+      <!-- Slides -->
+      <img src="Images/Banner_1.jpg" class="animated-slide img1" alt="Slide 1" />
+      <img src="Images/vietnam2.jpg" class="animated-slide img2" alt="Slide 2" />
+      <img src="Images/vietnam.jpg" class="final-image" alt="Final Static Image" />
+  
+      <!-- Text Overlay -->
+      <div class="banner-text">
+        <div class="ai-badge">
+          <span>Powered by AI</span>
+          <span class="beta">BETA</span>
+        </div>
+        <h2>Plan your kind of <br /> trip</h2>
+        <p>
+          Get custom recs for all the <br />
+          things you’re into with AI trip builder.
+        </p>
+        <button><i class="fa-solid fa-wand-magic-sparkles"></i> Start a trip with AI</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Explore Section -->
+<section class="explore-section">
+    <div class="explore-header">
+      <h2>Explore the world’s most stunning seasides</h2>
+      <p>2025’s Travellers’ Choice Awards Best of the Best Beaches</p>
+    </div>
+  
+    <div class="explore-cards-container">
+      <div class="explore-card">
+        <img src="Images/japan.jpg" alt="World Beach" />
+        <div class="card-label">
+          <span>2025</span>
+          <h3>World</h3>
+        </div>
+      </div>
+  
+      <div class="explore-card">
+        <img src="Images/indonesia.jpg" alt="Europe Beach" />
+        <div class="card-label">
+          <span>2025</span>
+          <h3>Europe</h3>
+        </div>
+      </div>
+  
+      <div class="explore-card">
+        <img src="Images/dubai.jpg" alt="Asia Beach" />
+        <div class="card-label">
+          <span>2025</span>
+          <h3>Asia</h3>
+        </div>
+      </div>
+  
+      <div class="explore-card">
+        <img src="Images/chennai.jpg" alt="South Pacific Beach" />
+        <div class="card-label">
+          <span>2025</span>
+          <h3>South Pacific</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<!-- Top Experiences Section -->
+<section class="top-experiences-section">
+    <div class="top-experiences-header">
+      <h2>Top experiences on Tripadvisor</h2>
+      <p>The best tours, activities and tickets</p>
+    </div>
+  
+    <div class="top-experiences-container">
+      <!-- Card 1 -->
+      <div class="experience-card">
+        <img src="Images/indonesia.jpg" alt="Railway Market Tour">
+        <div class="experience-info">
+          <h3>Half-Day Railway Market Tour</h3>
+          <div class="rating">
+            <span>4.5</span>
+            <div class="green-dots">
+              <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot half"></span>
+            </div>
+            <span>(2,000)</span>
+          </div>
+          <p class="price">from ₹10,000 per adult</p>
+        </div>
+      </div>
+  
+      <!-- Card 2 -->
+      <div class="experience-card">
+        <img src="Images/dubai.jpg" alt="Fontainhas Walk">
+        <div class="experience-info">
+          <h3>Fontainhas Walk by Make It Happen</h3>
+          <div class="rating">
+            <span>4.8</span>
+            <div class="green-dots">
+              <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            </div>
+            <span>(2,552)</span>
+          </div>
+          <p class="price">from ₹9,500 per adult</p>
+        </div>
+      </div>
+  
+      <!-- Card 3 -->
+      <div class="experience-card">
+        <img src="Images/kanchipuram.jpg" alt="Ninh Binh Tour">
+        <div class="experience-info">
+          <h3>Ninh Binh Full-Day Tour</h3>
+          <div class="rating">
+            <span>4.9</span>
+            <div class="green-dots">
+              <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            </div>
+            <span>(3,100)</span>
+          </div>
+          <p class="price">from ₹11,200 per adult</p>
+        </div>
+      </div>
+  
+      <!-- Card 4 -->
+      <div class="experience-card">
+        <img src="Images/singapore.jpg" alt="Cu Chi Tunnels">
+        <div class="experience-info">
+          <h3>Cu Chi Tunnels & Mekong Delta</h3>
+          <div class="rating">
+            <span>4.7</span>
+            <div class="green-dots">
+              <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot half"></span>
+            </div>
+            <span>(4,800)</span>
+          </div>
+          <p class="price">from ₹10,300 per adult</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="brand-intro" style="text-align: center; padding: 20px;">
+    <img src="Images/logo_2.jpg" alt="Tripadvisor Logo" style="width: 60px;" />
+    <h2 style="font-size: 24px; font-weight: 600; margin-top: 10px;">
+      Over a billion trips planned and counting!
+    </h2>
+  </section>
+
+  <!-- More to Explore Section -->
+<section class="more-explore-section">
+  <div class="more-explore-header">
+    <h2>More to explore</h2>
+  </div>
+
+  <div class="more-explore-container">
+    <!-- Card 1 -->
+    <div class="more-card">
+      <img src="Images/singapore.jpg" alt="Hotel">
+      <p>7 Bangkok hotels that highlight <br> Thailand's spectacular architecture</p>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="more-card">
+      <img src="Images/vietnam.jpg" alt="Tokyo">
+      <p>3 days in Tokyo: The perfect itinerary</p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="more-card">
+      <img src="Images/pondichery.jpg" alt="Bali">
+      <p>Where Bali’s best chefs go on their <br> days off</p>
+    </div>
+  </div>
+</section>
+
+<!-- Dream Your Next Trip Section -->
+<section class="dream-trip-section">
+  <div class="dream-trip-header">
+    <h2>Dream Your Next Trip</h2>
+    <p>Weekend getaways from Coimbatore</p>
+  </div>
+
+  <div class="dream-trip-container">
+    <!-- Card 1 -->
+    <div class="dream-card">
+      <img src="Images/musician.jpg" alt="Ooty">
+      <div class="dream-label">Ooty (Udhagamandalam), India</div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="dream-card">
+      <img src="Images/Trichy.webp" alt="Trichy">
+      <div class="dream-label">Tiruchirappalli, India</div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="dream-card">
+      <img src="Images/mahaballipuram.jpg" alt="Madurai">
+      <div class="dream-label">Madurai, India</div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="dream-card">
+      <img src="Images/kanchipuram.jpg" alt="Bengaluru">
+      <div class="dream-label">Bengaluru, India</div>
+    </div>
+  </div>
+</section>
+
+<!-- Top Destinations Section -->
+<section class="top-destinations-section">
+  <div class="top-destinations-header">
+    <h2>Top destinations for your next holiday</h2>
+  </div>
+
+  <div class="destination-cards-container">
+    <div class="destination-card">
+      <img src="Images/bengaluru.jpg" alt="Rome">
+      <div class="destination-label">Bengaluru, Italy</div>
+    </div>
+    <div class="destination-card">
+      <img src="Images/indonesia.jpg" alt="Paris">
+      <div class="destination-label">Indonesia</div>
+    </div>
+    <div class="destination-card">
+      <img src="Images/vietnam2.jpg" alt="Las Vegas">
+      <div class="destination-label">Las Vegas, NV</div>
+    </div>
+    <div class="destination-card">
+      <img src="Images/japan.jpg" alt="Reykjavik">
+      <div class="destination-label">Japan, Iceland</div>
+    </div>
+  </div>
+
+  <!-- Sub Header -->
+  <div class="top-destinations-subheader">
+    <h2>Top destinations for your next holiday</h2>
+    <p>Here's where your fellow travellers are headed</p>
+  </div>
+
+  <div class="destination-cards-container">
+    <div class="destination-card">
+      <img src="Images/dubai.jpg" alt="Bali">
+      <div class="destination-label">Dubai</div>
+    </div>
+    <div class="destination-card">
+      <img src="Images/shop.jpg" alt="Tokyo">
+      <div class="destination-label">Tokyo, Japan</div>
+    </div>
+    <div class="destination-card">
+      <img src="Images/person.jpg" alt="Athens">
+      <div class="destination-label">Athens, Greece</div>
+    </div>
+    <div class="destination-card">
+      <img src="Images/musician.jpg" alt="Sydney">
+      <div class="destination-label">Sydney, Australia</div>
+    </div>
+  </div>
+</section>
+
+<section class="wanderer-section">
+  <div class="wanderer-wrapper">
+    <!-- Left Side Image -->
+    <div class="wanderer-image">
+      <img src="Images/party.jpg" alt="Watch The Wanderer Banner" />
+    </div>
+
+    <!-- Right Side Text -->
+    <div class="wanderer-text">
+      <p class="sponsored-by">
+        <img src="Images/logo.jpg" alt="Tripadvisor logo" />
+        Sponsored by <a href="#">Wanderlab</a>
+      </p>
+      <h2>Watch The Wanderer</h2>
+      <p class="description">
+        Tripadvisor’s award-winning travel series,<br />
+        now streaming on Amazon Prime Video.
+      </p>
+      <a href="#" class="learn-btn">Learn more</a>
+    </div>
+  </div>
+</section>
+
+<!-- Home Rentals Section -->
+<section class="home-rentals-section">
+  <div class="home-rentals-wrapper">
+    <!-- Left Text Content -->
+    <div class="rentals-text">
+      <h2>Home Rentals Near You</h2>
+      <p>We think you'd enjoy these homes for a quick trip out of town.</p>
+    </div>
+
+    <!-- Right Cards -->
+    <div class="rentals-cards">
+      <!-- Card 1 -->
+      <div class="rental-card">
+        <img src="Images/mahaballipuram.jpg" alt="Mahabalipuram" />
+        <h3>Rentals in Mahabalipuram</h3>
+        <p>10 rentals</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="rental-card">
+        <img src="Images/chennaiCity.jpg" alt="Thanjavur" />
+        <h3>Rentals in Thanjavur</h3>
+        <p>6 rentals</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="rental-card">
+        <img src="Images/caption.jpg" alt="Bengaluru" />
+        <h3>Rentals in Bengaluru</h3>
+        <p>171 rentals</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Best of the Best Banner Section -->
+<section class="award-banner">
+  <div class="award-content">
+    <div class="award-text">
+      <img src="Images/icon-award.svg" alt="Award Icon" class="award-icon" />
+      <h2>Travellers' Choice Awards Best of the Best</h2>
+      <p>
+        Among our top 1% of places, stays, eats, and experiences—
+        decided by you.
+      </p>
+      <button>See the winners</button>
+    </div>
+    <div class="award-image">
+      <img src="Images/Banner_3.png" alt="Travellers Choice Image" />
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-columns">
+    <div>
+      <h4>About Tripadvisor</h4>
+      <p>About Us</p>
+      <p>Press</p>
+      <p>Resources and Policies</p>
+      <p>Careers</p>
+      <p>Trust & Safety</p>
+      <p>Contact us</p>
+      <p>Accessibility Statement</p>
+    </div>
+
+    <div>
+      <h4>Explore</h4>
+      <p>Write a review</p>
+      <p>Add a Place</p>
+      <p>Join</p>
+      <p>Travellers' Choice</p>
+      <p>Help Centre</p>
+      <p>Travel Stories</p>
+    </div>
+
+    <div>
+      <h4>Do Business With Us</h4>
+      <p>Owners & DMO/CVB</p>
+      <p>Business Advantage</p>
+      <p>Sponsored Placements</p>
+      <p>Access our Content API</p>
+      <h4>Get The App</h4>
+      <p>iPhone App</p>
+      <p>Android App</p>
+    </div>
+
+    <div>
+      <h4>Tripadvisor Sites</h4>
+      <p>Book tours and attraction tickets on <a href="#">Viator</a></p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="footer-logo-copy">
+      <img src="Images/logo.jpg" alt="Tripadvisor Logo" />
+      <span>© 2025 Tripadvisor LLC All rights reserved.</span>
+    </div>
+
+    <div class="footer-right-section">
+      <div class="footer-links">
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy and Cookies Statement</a>
+        <a href="#">Cookie consent</a>
+        <a href="#">Site Map</a>
+        <a href="#">How the site works</a>
+        <a href="#">Contact us</a>
+      </div>
+
+      <div class="footer-controls-social">
+        <div class="footer-dropdowns">
+          <select>
+            <option>₹ INR</option>
+          </select>
+          <select>
+            <option>India</option>
+          </select>
+        </div>
+
+        <div class="social-icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-x-twitter"></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-youtube"></i>
+          <i class="fab fa-tiktok"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <p class="footer-disclaimer">
+    This is the version of our website addressed to speakers of English in India.
+    If you are a resident of another country or region, please select the appropriate version of Tripadvisor for your country or region in the drop-down menu. 
+    <a href="#">Show more</a>
+  </p>
+</footer>
+
+</body>
+</html>
