@@ -1,14 +1,22 @@
-# 🎓 Udemy-Style Frontend Landing Page
+🌟 Excited to Share My Latest Project!
 
-A responsive single-page frontend project inspired by Udemy's UI, built using **HTML5** and **CSS3**. It features a fixed navbar, animated banner, search box, and horizontal scroll sections for exploring experiences. Ideal for learning frontend design and layout.
+🔹 A Responsive **TripAdvisor Clone**  
+Created as part of the **Error Makes Clever** training program.
 
-## 🔧 Tech Stack
-- HTML5  
-- CSS3 (Flexbox, Animations, Media Queries)
+🧭 **Key Features:**
 
-## 📁 Files
-- `index.html`  
-- `style.css`  
-- `assets/images/`
- 
-[GitHub](https://github.com/Varsha-SK000)
+- **Responsive Design** — Seamless experience across mobile, tablet, and desktop  
+- **Category Sections** — Browse through Hotels, Restaurants, and Flights  
+- **Modern UI** — Clean layout with scrollable cards and intuitive navigation  
+
+🛠️ **Tech Stack:**
+
+- **HTML** — Page structure  
+- **CSS** — Styling with responsive media queries  
+- **Font Awesome** — For stylish icons  
+
+💡 This project helped me strengthen my **front-end development skills** and sharpen my **UI/UX sense**.
+
+🔗 **Live Demo:** [TripAdvisor Clone](https://varsha-sk000.github.io/Tripadvisor/)  
+💻 **GitHub Repo:** [View Code](https://github.com/Varsha-SK000/Tripadvisor)
+
